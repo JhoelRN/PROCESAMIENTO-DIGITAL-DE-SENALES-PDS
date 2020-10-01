@@ -1,0 +1,12 @@
+읕lab01_pds
+   읕MAIN  0/254  Ram=10
+      쳐@cinit1  (Inline)  Ram=0
+      쳐@ITOF  0/56  Ram=2
+      쳐@MULFF  0/242  Ram=11
+      쳐@DIVFF  0/348  Ram=14
+      쳐@PRINTF_LU_9600_31766_31767  0/174  Ram=9
+      읕@PRINTF_L32D_9600_31766_31767FPFPF  0/386  Ram=13
+         쳐@MULFF  0/242  Ram=11
+         쳐@FTOSD  0/64  Ram=5
+         쳐@DIV3232  0/142  Ram=13
+         읕@DIV3232  0/142  Ram=13

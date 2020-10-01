@@ -1,0 +1,52 @@
+
+ROM used:   1670/32768 (5%)
+            1670/32768 (5%) including unused fragments
+
+            0.5 Average locations per line
+            6.3 Average locations per statement
+
+RAM used:   14/2048 (1%) at main() level
+            36/2048 (2%) worst case
+
+Stack used: 1 worst case (1 in main + 0 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   28    10   4  lab01_pds.c
+  837     0   0  ..\..\..\..\..\..\Program Files (x86)\PICC\Devices\18F4550.h
+ 2229   257  96  ..\..\..\..\..\..\Program Files (x86)\PICC\Drivers\math.h
+----- -----
+ 3094   267 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     56   2    2             @ITOF
+0    242   7   11             @MULFF
+0    348  10   14             @DIVFF
+0    254   8   10    289  3.9  MAIN
+0    174   5    9             @PRINTF_LU_9600_31766_31767
+0     64   2    5             @FTOSD
+0    142   4   13             @DIV3232
+0    386  12   13             @PRINTF_L32D_9600_31766_31767FPFPF
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               1
+    Statements              267
+    Comments                419
+    Volume (V)              304
+    Difficulty (D)          3.0
+    Effort to implement (E) 924
+    Time to implement (T)   1 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   1
+    Maintainability (MI)    65
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-07FFE  1666  31098  
+
+
+

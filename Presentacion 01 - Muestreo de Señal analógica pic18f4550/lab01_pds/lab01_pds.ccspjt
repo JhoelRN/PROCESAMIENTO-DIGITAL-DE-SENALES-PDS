@@ -1,0 +1,111 @@
+[Directories]
+Include=
+Library=
+LinkerScript=
+output=
+
+[defines]
+enabled=0
+chip=1
+D1=
+V1=
+
+[fileformats]
+forcecoff=1
+debug=4
+error=2
+object=0
+list=0
+scratch=0
+sta=1
+tre=1
+expandtree=0
+allerrors=1
+allwarnings=1
+stayupne=3
+stayupoe=0
+
+[PROJECT]
+Target=lab01_pds.hex
+Development_Mode=
+Processor_Text=PIC18F4550
+ToolSuite=CCS
+CCSVersion=5.025
+Compiler=PCH
+
+[Target Data]
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+FileList=lab01_pds.c
+
+[lab01_pds.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=lab01_pds.c
+
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+
+
+[CompilerVersion]
+Fixed=
+
+[Opened Files]
+1=lab01_pds.c
+2=
+
+[ProjectLog]
+Days=3
+D1=18-09-2020
+D1_L=20
+D1_L1=[24729]Project Closed.
+D1_L2=[24729]Project Opened.
+D1_L3=[24742]Started Editing.
+D1_L4=[25042]Stopped Editing.
+D1_L5=[54882]Started Editing.
+D1_L6=[54891]Stopped Editing.
+TotalEdit=7
+TotalDebug=0
+D1_E=2
+D1_D=0
+D1_L7=[54891]Project Closed.
+D1_L8=[54896]Project Opened.
+D1_L9=[55743]Started Editing.
+D1_L10=[56068]Stopped Editing.
+D1_L11=[56221]Started Editing.
+D1_L12=[57204]Stopped Editing.
+D1_L13=[57488]Started Editing.
+D1_L14=[58013]Stopped Editing.
+D1_L15=[59238]Started Editing.
+D1_L16=[59540]Stopped Editing.
+D1_L17=[61392]Project Opened.
+D1_L18=[61456]Started Editing.
+D1_L19=[61790]Stopped Editing.
+D1_L20=[62270]Project Closed.
+D2=25-09-2020
+D2_L=2
+D2_L1=[81273]Project Opened.
+D2_L2=[81318]Project Closed.
+D3=30-09-2020
+D3_L=8
+D3_L1=[45176]Project Opened.
+D3_L2=[48418]Started Editing.
+D3_L3=[48947]Stopped Editing.
+D3_L4=[53341]Started Editing.
+D3_L5=[53641]Stopped Editing.
+D3_L6=[55343]Started Editing.
+D3_L7=[55669]Stopped Editing.
+D3_E=5
+D3_D=0
+D3_L8=[62699]Project Closed.
+[Units]
+Count=1
+1=lab01_pds (main)
